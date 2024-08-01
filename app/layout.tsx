@@ -1,6 +1,7 @@
 import {
   ClerkProvider,
   SignInButton,
+  SignUpButton,
   SignedIn,
   SignedOut,
   UserButton,
@@ -18,7 +19,7 @@ export default function RootLayout({
         <body>
           <header>
             <SignedOut>
-              <SignInButton />
+              <SignUpButton />
             </SignedOut>
             <SignedIn>
               <UserButton />
